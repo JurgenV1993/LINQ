@@ -171,21 +171,5 @@ namespace LinqSamples
             public int Total { get; set; }
             public int Counting { get; set; }
         }
-        //JOIN ne Link do te bejme nje bashkim ndermjet cars dhe manufacturers
-        //bashkimi behet ne Manufacturer dhe ne Name
-        //manufacturers jane 50 kurse makinat jane rreth 200 cope
-        //cars jane me shume 
-        //Ne lidhje me performancen duhet qe te vendosim brenda kllapave ate qe ka me pak vlera 
-        //Pra Inner Sequence duhet te kete me pak vlera se outer sequence
-
-        /*var query2 = cars.Join(manufacturers,
-                    c => c.Manufacturer,
-                    m => m.Name, (c, m) => new
-                    {
-                        m.Headquarters,
-                        c.Name,
-                        c.Combined
-                    });  
-         */
     }
 }

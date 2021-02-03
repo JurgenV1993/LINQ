@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\..\..\Downloads\582e9c044eee5882d54a6e5997c0be52-1c6cd2fe0bda9c63178fda1f313370479ff0bc8a\582e9c044eee5882d54a6e5997c0be52-1c6cd2fe0bda9c63178fda1f313370479ff0bc8a\manufacturers.csv = ..\..\..\Downloads\582e9c044eee5882d54a6e5997c0be52-1c6cd2fe0bda9c63178fda1f313370479ff0bc8a\582e9c044eee5882d54a6e5997c0be52-1c6cd2fe0bda9c63178fda1f313370479ff0bc8a\manufacturers.csv
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POJO", "POJO\POJO.csproj", "{A1AD1F42-16EF-4DCB-9EE7-D453694EFE41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POCO", "POJO\POCO.csproj", "{A1AD1F42-16EF-4DCB-9EE7-D453694EFE41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
